@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context = "http://www.springframework.org/schema/context"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <context:annotation-config/>
+    <bean name="movie1" class="com.example.movies.model.Movie" >
+        <property name="movieName" value="21st Century Girl"/>
+        <property name="price" value="299"/>
+    </bean>
+    <bean name="movie2" class="com.example.movies.model.Movie" >
+        <property name="movieName" value="Pathaan"/>
+        <property name="price" value="500"/>
+    </bean>
+    <bean name="movie3" class="com.example.movies.model.Movie" >
+        <property name="movieName" value="Avatar"/>
+        <property name="price" value="799"/>
+    </bean>
+    <bean name="movie4" class="com.example.movies.model.Movie" >
+        <property name="movieName" value="Hera Pheri"/>
+        <property name="price" value="799"/>
+    </bean>
+    <bean name="movie5" class="com.example.movies.model.Movie" >
+        <property name="movieName" value="RRR"/>
+        <property name="price" value="200"/>
+    </bean>
+    <bean name="movie6" class="com.example.movies.model.Movie" >
+        <property name="movieName" value="SuryaVamsham"/>
+        <property name="price" value="59"/>
+    </bean>
+    <bean name="movie7" class="com.example.movies.model.Movie" >
+        <property name="movieName" value="KGF ch1"/>
+        <property name="price" value="99"/>
+    </bean>
+    <bean name="movie8" class="com.example.movies.model.Movie" >
+        <property name="movieName" value="KGF ch2"/>
+        <property name="price" value="199"/>
+    </bean>
+    <bean name="movie9" class="com.example.movies.model.Movie" >
+        <property name="movieName" value="One Piece Red"/>
+        <property name="price" value="999"/>
+    </bean>
+    <bean name="movie10" class="com.example.movies.model.Movie" >
+        <property name="movieName" value="Friends"/>
+        <property name="price" value="1000"/>
+    </bean>
+    <bean name="movie11" class="com.example.movies.model.Movie" >
+        <property name="movieName" value="Avengers"/>
+        <property name="price" value="99"/>
+    </bean>
+    <bean name="movie12" class="com.example.movies.model.Movie" >
+        <property name="movieName" value="Harry potter: sorcerer stone"/>
+        <property name="price" value="299"/>
+    </bean>
+</beans>

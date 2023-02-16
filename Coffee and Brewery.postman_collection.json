@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "1b50117d-a9f5-4d56-8024-5bc5af3079d1",
+		"name": "Coffee and Brewery",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25861827"
+	},
+	"item": [
+		{
+			"name": "Get Quantity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8085/brewery/getQuantity?amount=100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"brewery",
+						"getQuantity"
+					],
+					"query": [
+						{
+							"key": "amount",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Quantity",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8085/brewery/createQuantityList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"brewery",
+						"createQuantityList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8085/brewery/allQuantities",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"brewery",
+						"allQuantities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Coffee List Creation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8085/coffee/setQuantities",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"coffee",
+						"setQuantities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Coffee Menu",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8085/coffee/menu",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"coffee",
+						"menu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Quantity of substances",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8085/coffee/type/Latte",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"coffee",
+						"type",
+						"Latte"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "allQuantities",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8085/coffee/allQuantities",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"coffee",
+						"allQuantities"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
